@@ -60,6 +60,7 @@ development:
 test:
   <<: *default
   database: planoInfalivel_test
+  database: planoInfalive_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -82,6 +83,7 @@ test:
 #
 production:
   <<: *default
-  database: planoInfalivel_production
-  username: planoInfalivel
+  database: planoinfalivel_production
+  username: planoinfalivel
   password: <%= ENV['PLANOINFALIVEL_DATABASE_PASSWORD'] %>
+
